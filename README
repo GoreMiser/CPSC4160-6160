@@ -1,0 +1,18 @@
+Name: William Newberry and Ben Green
+Clemson Email Address: wrnewbe@g.clemson.edu beg@clemson.edu
+
+Project no: 5
+Project due date: 4/23/14
+Project description: To make a coherant game
+
+The Specs that I implemented are: AI(buggy), map collision
+
+The Specs that I was unable to implement are: 
+
+Extras: All sprites are hand-drawn by me, this project has brought in additional sprites, 
+	    some that extended previous sprites and some that are brand new 
+	main song is the Legend of Zelda theme from the original Legend of Zelda game
+	(Custom music to be added in later)
+	Known leaks to be coming from manager when exploding the sprite
+        player invincible currently(couldn't decrement health)
+        boss AI works, but then bugs out

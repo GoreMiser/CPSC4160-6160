@@ -1,0 +1,267 @@
+<?xml version = "1.0"?>
+<GameData>
+<screenTitle>The Legend of the Ancients</screenTitle>
+<username>wrnewbe</username>
+<frameMax>400</frameMax>
+<frameCap>60</frameCap>
+<framesAreCapped>true</framesAreCapped>
+
+<numberOfGems>101</numberOfGems>
+
+
+<hud>
+  <Width>300</Width>
+  <Height>200</Height>
+  <X>10</X>
+  <Y>10</Y>
+</hud>
+
+<view>
+  <Width>854</Width>
+  <Height>480</Height>
+</view>
+
+<world>
+  <Width>2880</Width>
+  <Height>2880</Height>
+</world>
+
+<back>
+  <File>images/worldWithRoads2.bmp</File>
+  <SrcX>0</SrcX>
+  <SrcY>0</SrcY>
+  <Factor>1</Factor>
+  <Width>2562</Width>
+  <Height>2880</Height>
+  <Transparency>false</Transparency>
+</back>
+
+<CollisionMap>
+  <File>collisionMap.txt</File>
+  <Height>72</Height>
+  <Width>72</Width>
+  <Ratio>0.025</Ratio>
+</CollisionMap>
+
+<font name="font">
+  <File>font/dyslexic-bold.otf</File>
+  <Size>14</Size>
+  <Red>0</Red>
+  <Green>0</Green>
+  <Blue>0</Blue>
+  <Unused>255</Unused>
+</font>
+
+<maxStringSize>50</maxStringSize>
+
+<cloud>
+  <File>images/cloud.png</File>
+  <SrcX>0</SrcX>
+  <SrcY>0</SrcY>
+  <Width>64</Width>
+  <Height>64</Height>
+  <X>320</X> 
+  <Y>240</Y>
+  <SpeedX>100</SpeedX> 
+  <SpeedY>100</SpeedY>
+  <Transparency>true</Transparency>
+</cloud>
+
+<cloud2>
+  <File>images/cloud2.png</File>
+  <SrcX>0</SrcX>
+  <SrcY>0</SrcY>
+  <Width>128</Width>
+  <Height>128</Height>
+  <X>320</X> 
+  <Y>240</Y>
+  <SpeedX>10</SpeedX> 
+  <SpeedY>10</SpeedY>
+  <Transparency>true</Transparency>
+</cloud2>
+
+<cloud3>
+  <File>images/cloud3.png</File>
+  <SrcX>0</SrcX>
+  <SrcY>0</SrcY>
+  <Width>96</Width>
+  <Height>96</Height>
+  <X>320</X> 
+  <Y>240</Y>
+  <SpeedX>50</SpeedX> 
+  <SpeedY>50</SpeedY>
+  <Transparency>true</Transparency>
+</cloud3>
+
+<basicEnemy>
+  <File>images/basicEnemy.png</File>
+  <SrcX>0</SrcX>
+  <SrcY>0</SrcY>
+  <Width>32</Width>
+  <Height>32</Height>
+  <X>1190</X>
+  <Y>1500</Y>
+  <SpeedX>0</SpeedX>
+  <SpeedY>0</SpeedY>
+  <Transparency>true</Transparency>
+  <Chunk>
+    <Size>50</Size>
+    <Distance>20</Distance>
+  </Chunk>
+</basicEnemy>
+
+<boss>
+  <File>images/monster.png</File>
+  <SrcX>0</SrcX>
+  <SrcY>0</SrcY>
+  <Width>96</Width>
+  <Height>85</Height>
+  <X>1190</X>
+  <Y>2100</Y>
+  <SpeedX>0</SpeedX>
+  <SpeedY>0</SpeedY>
+  <Transparency>true</Transparency>
+  <Chunk>
+    <Size>50</Size>
+    <Distance>80</Distance>
+  </Chunk>
+</boss>
+
+<explodingPlayer>
+  <File>images/player.png</File>
+  <SrcX>0</SrcX>
+  <SrcY>0</SrcY>
+  <Width>32</Width>
+  <Height>64</Height>
+  <X>320</X>
+  <Y>240</Y>
+  <SpeedX>0</SpeedX>
+  <SpeedY>0</SpeedY>
+  <Transparency>true</Transparency>
+  <Chunk>
+    <Size>100</Size>
+    <Distance>20</Distance>
+  </Chunk>
+</explodingPlayer>
+
+<player>
+  <Forward>
+    <File>images/playerWalkingForward.png</File>
+    <SrcX>0</SrcX>
+    <SrcY>0</SrcY>
+    <Width>32</Width>
+    <Height>32</Height>
+    <Frames>4</Frames>
+    <FrameInterval>230</FrameInterval>
+  </Forward>
+
+  <Left>
+    <File>images/playerWalkingLeft.png</File>
+    <SrcX>0</SrcX>
+    <SrcY>0</SrcY>
+    <Width>32</Width>
+    <Height>32</Height>
+    <Frames>4</Frames>
+    <FrameInterval>230</FrameInterval>
+  </Left>
+
+  <Back>
+    <File>images/playerWalkingBackwards.png</File>
+    <SrcX>0</SrcX>
+    <SrcY>0</SrcY>
+    <Width>32</Width>
+    <Height>32</Height>
+    <Frames>4</Frames>
+    <FrameInterval>230</FrameInterval>
+  </Back>
+
+  <Right>
+    <File>images/playerWalkingRight.png</File>
+    <SrcX>0</SrcX>
+    <SrcY>0</SrcY>
+    <Width>32</Width>
+    <Height>32</Height>
+    <Frames>4</Frames>
+    <FrameInterval>230</FrameInterval>
+  </Right>
+
+  <Shooting>
+    <Up>
+      <File>images/playerShooting.png</File>
+      <SrcX>0</SrcX>
+      <SrcY>0</SrcY>
+      <Width>32</Width>
+      <Height>32</Height>
+      <Frames>3</Frames>
+      <FrameInterval>230</FrameInterval>
+    </Up>
+
+    <Down>
+      <File>images/playerShootingBack.png</File>
+      <Frames>3</Frames>
+      <FrameInterval>230</FrameInterval>
+      <SrcX>0</SrcX>
+      <SrcY>0</SrcY>
+      <Width>32</Width>
+      <Height>32</Height>
+    </Down>
+
+    <Left>
+      <File>images/playerShootingLeft.png</File>
+      <Frames>3</Frames>
+      <FrameInterval>230</FrameInterval>
+      <SrcX>0</SrcX>
+      <SrcY>0</SrcY>
+      <Width>32</Width>
+      <Height>32</Height>
+    </Left>
+
+    <Right>
+      <File>images/playerShootingRight.png</File>
+      <Frames>3</Frames>
+      <FrameInterval>230</FrameInterval>
+      <SrcX>0</SrcX>
+      <SrcY>0</SrcY>
+      <Width>32</Width>
+      <Height>32</Height>
+    </Right>
+
+    <X>1150</X>
+    <Y>1520</Y>
+    <Chunks>25</Chunks>
+    <SpeedX>0</SpeedX>
+    <SpeedY>0</SpeedY>
+    <Transparency>true</Transparency>
+  </Shooting>
+
+  <X>1150</X>
+  <Y>1520</Y>
+  <Chunks>25</Chunks>
+  <SpeedX>0</SpeedX>
+  <SpeedY>0</SpeedY>
+  <Transparency>true</Transparency>
+</player>
+
+<bullet>
+  <File>images/shoot.png</File>
+  <X>1150</X>
+  <Y>1520</Y>
+
+  <Frames>4</Frames>
+  <FrameInterval>230</FrameInterval>
+  <Chunks>25</Chunks>
+
+  <SrcX>0</SrcX>
+  <SrcY>0</SrcY>
+  <Width>8</Width>
+  <Height>8</Height>
+  <Transparency>true</Transparency>
+
+  <Interval>500</Interval>
+  <MinSpeed>200</MinSpeed>
+  <MaxDistance>175</MaxDistance>
+  <SpeedY>300</SpeedY>
+  <SpeedX>300</SpeedX>
+</bullet>
+
+</GameData>

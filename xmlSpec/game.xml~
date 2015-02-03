@@ -1,0 +1,109 @@
+<?xml version = "1.0"?>
+<GameData>
+<screenTitle>Basic Game Framework</screenTitle>
+<username>wrnewbe</username>
+<frameMax>600</frameMax>
+<frameCap>60</frameCap>
+<framesAreCapped>true</framesAreCapped>
+
+<numberOfGems>50</numberOfGems>
+
+
+<view>
+  <viewWidth>854</viewWidth>
+  <viewHeight>480</viewHeight>
+</view>
+
+<world>
+  <worldWidth>1890</worldWidth>
+  <worldHeight>1075</worldHeight>
+</world>
+
+<back>
+  <backFile>images/background1.bmp</backFile>
+  <backSrcX>0</backSrcX>
+  <backSrcY>0</backSrcY>
+  <backFactor>1</backFactor>
+  <backWidth>1920</backWidth>
+  <backHeight>1080</backHeight>
+  <backLoc backX="0" backY="0"/>
+  <backSpeed backSpeedX="0" backSpeedY="0"/>
+  <backTransparency>false</backTransparency>
+</back>
+
+<font name="font">
+  <fontFile>font/dyslexic-bold.otf</fontFile>
+  <fontSize>14</fontSize>
+  <fontRed>139</fontRed>
+  <fontGreen>0</fontGreen>
+  <fontBlue>0</fontBlue>
+  <fontUnused>0</fontUnused>
+</font>
+<maxStringSize>50</maxStringSize>
+
+<omniGem>
+  <omniGemFile>images/OmniGem.bmp</omniGemFile>
+  <omniGemSrcX>0</omniGemSrcX>
+  <omniGemSrcY>0</omniGemSrcY>
+  <omniGemWidth>32</omniGemWidth>
+  <omniGemHeight>32</omniGemHeight>
+  <omniGemLoc omniGemX="320" omniGemY="240"/>
+  <omniGemSpeed omniGemSpeedX="200" omniGemSpeedY="200"/>
+  <omniGemTransparency>true</omniGemTransparency>
+  <omniGemChunkSize>9</omniGemChunkSize>
+  <omniGemChunkDistance>200</omniGemChunkDistance>
+</omniGem>
+
+<bloodGem>
+  <bloodGemFile>images/BloodGem.png</bloodGemFile>
+  <bloodGemSrcX>0</bloodGemSrcX>
+  <bloodGemSrcY>0</bloodGemSrcY>
+  <bloodGemWidth>32</bloodGemWidth>
+  <bloodGemHeight>32</bloodGemHeight>
+  <bloodGemLoc omniGemX="320" omniGemY="240"/>
+  <bloodGemSpeed omniGemSpeedX="200" omniGemSpeedY="200"/>
+  <bloodGemTransparency>true</bloodGemTransparency>
+  <bloodGemChunkSize>9</bloodGemChunkSize>
+  <bloodGemChunkDistance>200</bloodGemChunkDistance>
+</bloodGem>
+
+<goreGem>
+  <goreGemFile>images/OmniGem.bmp</omniGemFile>
+  <goreGemSrcX>0</omniGemSrcX>
+  <omniGemSrcY>0</omniGemSrcY>
+  <omniGemWidth>32</omniGemWidth>
+  <omniGemHeight>32</omniGemHeight>
+  <omniGemLoc omniGemX="320" omniGemY="240"/>
+  <omniGemSpeed omniGemSpeedX="200" omniGemSpeedY="200"/>
+  <omniGemTransparency>true</omniGemTransparency>
+  <omniGemChunkSize>9</omniGemChunkSize>
+  <omniGemChunkDistance>200</omniGemChunkDistance>
+</omniGem>
+
+<omniGem>
+  <omniGemFile>images/OmniGem.bmp</omniGemFile>
+  <omniGemSrcX>0</omniGemSrcX>
+  <omniGemSrcY>0</omniGemSrcY>
+  <omniGemWidth>32</omniGemWidth>
+  <omniGemHeight>32</omniGemHeight>
+  <omniGemLoc omniGemX="320" omniGemY="240"/>
+  <omniGemSpeed omniGemSpeedX="200" omniGemSpeedY="200"/>
+  <omniGemTransparency>true</omniGemTransparency>
+  <omniGemChunkSize>9</omniGemChunkSize>
+  <omniGemChunkDistance>200</omniGemChunkDistance>
+</omniGem>
+
+<omniGem>
+  <omniGemFile>images/OmniGem.bmp</omniGemFile>
+  <omniGemSrcX>0</omniGemSrcX>
+  <omniGemSrcY>0</omniGemSrcY>
+  <omniGemWidth>32</omniGemWidth>
+  <omniGemHeight>32</omniGemHeight>
+  <omniGemLoc omniGemX="320" omniGemY="240"/>
+  <omniGemSpeed omniGemSpeedX="200" omniGemSpeedY="200"/>
+  <omniGemTransparency>true</omniGemTransparency>
+  <omniGemChunkSize>9</omniGemChunkSize>
+  <omniGemChunkDistance>200</omniGemChunkDistance>
+</omniGem>
+
+</GameData>
